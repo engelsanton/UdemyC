@@ -32,4 +32,5 @@ int main()
     char str1[] = "Hlo";
     char str2[] = "Hlo";
     printf("Ist [%s] gleich [%s] = %d", str1, str2, string_comp(str1, str2));
+    return 0;
 }
