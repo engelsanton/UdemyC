@@ -4,6 +4,7 @@ enum Beverage
 {
     NO_BEVERAGE,
     WATER,
+    BEER,
     COLA,
     FANTA,
     SPRITE,
