@@ -4,6 +4,38 @@
 
 char *join(char *delimiter, char **list)
 {
+    // Input check
+    if (list == NULL || delimiter == NULL)
+    {
+        return NULL;
+    }
+    // Speicher reservieren
+
+    char *end_str = (char *)malloc(1000 * sizeof(char));
+    if (end_str == NULL)
+    {
+        return NULL;
+    }
+
+    unsigned int mem_plc = 0;
+    for (unsigned int i = 0; list[i] != NULL; i++)
+    {
+        for (unsigned int j = 0; list[i][j] != '\0'; j++)
+        {
+            end_str[mem_plc] = list[i][j];
+            mem_plc++;
+        }
+        for (unsigned int j = 0;
+             (delimiter[j] != '\0') && (list[i + 1] != NULL);
+             j++)
+        {
+            end_str[mem_plc] = delimiter[j];
+            mem_plc++;
+        }
+    }
+
+
+    return end_str;
 }
 
 int main()

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Anton/Documents/Coding/VS Code/UdemyC/Chapter09_CharArrays",
-      "program": "c:/Users/Anton/Documents/Coding/VS Code/UdemyC/Chapter09_CharArrays/build/Debug/outDebug",
+      "cwd": "c:/Users/Anton/Documents/Coding/VS Code/UdemyC/Chapter09_CharArrays/_Exercise/Exercise",
+      "program": "c:/Users/Anton/Documents/Coding/VS Code/UdemyC/Chapter09_CharArrays/_Exercise/Exercise/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
